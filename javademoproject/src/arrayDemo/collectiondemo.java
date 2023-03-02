@@ -10,9 +10,7 @@ public class collectiondemo {
 		demo1();
 		demo2();
 		demo3();
-		
-		
-		
+
 	}
 	private static void demo1() {
 		ArrayList list=new ArrayList();

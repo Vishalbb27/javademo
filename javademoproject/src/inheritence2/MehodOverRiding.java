@@ -5,11 +5,8 @@ public class MehodOverRiding {
 		System.out.println("This is a MOR constructor");
 	}
 	public static void main(String[] args) {
-		Car car=new Car();
-		car.fuel();
-		Bike bike=new Bike();
-		bike.fuel();
-		Bus bus=new Bus();
+		
+		Bus bus=new Bus(3,4,5,6);
 		bus.fuel();
 	}
 	

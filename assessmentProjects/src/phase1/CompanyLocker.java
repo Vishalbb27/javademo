@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class CompanyLocker {
-	final static String appName = "My Locker";
+	final static String appName = "LockedMe.com";
 
 	public static void main(String[] args) {
 
@@ -217,7 +217,7 @@ class FileOperations1 implements fileOperations {
 	@Override
 	public void searchFile(String file) {
 		// TODO Auto-generated method stub
-		fileNames.contains(file);
+		b=fileNames.contains(file);
 		if (b) {
 			System.out.println("\nFile present in the directory.\n");
 		} else {
